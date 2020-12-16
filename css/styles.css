@@ -1,0 +1,244 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  color: #4A4848;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: black;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+@font-face {
+    font-family: 'wiredregular';
+    src: url('wired-regular-webfont.woff2') format('woff2'),
+         url('wired-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#top {
+padding: 2% 15%;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 2% 15%;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'wiredregular', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+#J {
+  color: #D14D4D;
+}
+
+
+.nav-link {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  margin-left: 100px;
+}
+
+
+/* Intro section */
+
+.intro {
+  margin: 10% 0;
+}
+
+.intro-text {
+  padding-top: 5%;
+}
+
+#hi {
+  margin-bottom: 5px;
+}
+
+#sophie-img {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* Top section break */
+
+.mid {
+  background-color: #191818;
+  padding: 15% 20%;
+}
+
+h2 {
+  font-family: 'wiredregular', sans-serif;
+  font-size: 3.125rem;
+  color: #fff;
+}
+
+/* Skills */
+
+#skills {
+  padding: 7% 15%;
+}
+
+.row {
+  padding: 3% 0;
+}
+
+
+.circle {
+  background-color: #D14D4D;
+  border-radius: 50%;
+  height: 314px;
+  width: 314px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.design-circle {
+  right: 0;
+}
+
+.skill-title {
+  font-family: 'wiredregular', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skill-txt {
+  font-family: "Darker Grotesque", sans-serif;
+  text-align: justify;
+  font-size: 1.5rem;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 0 10%;
+}
+
+
+
+@media (min-width: 992px){
+.left-box-right {
+  order: 2;
+}
+
+.right-box-left {
+  order: 1;
+}
+}
+
+/* Blog */
+
+#blog {
+  color: #fff;
+  background-color: #191818;
+  font-family: "Darker Grotesque", sans-serif;
+  text-align: left;
+  padding: 3% 15%;
+}
+
+#writing-title {
+  font-weight: bold;
+  font-size: 2.25rem;
+  padding-bottom: 2%;
+}
+
+.card {
+  border: none;
+  padding-bottom: 5%;
+  background-color: #191818;
+}
+
+.card-body {
+  padding: 1.25rem 0;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  color:#fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 1% 0;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+/* Footer */
+
+
+#footer {
+  background-color: #0C0C0C;
+  padding: 1%;
+}
+
+.footer-link {
+  color: #BBB6B6;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 5%;
+}
+
+.footer-link:hover {
+  color: #FDFDFD;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  #sophie-img {
+  position: relative;
+  transform: translate(0);
+  top: 0;
+  left: 0;
+  width: 300px;
+  }
+  .circle {
+    margin-bottom: 10px;
+  }
+  .skill-txt {
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
